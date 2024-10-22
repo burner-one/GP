@@ -5,12 +5,11 @@ using UnityEngine;
 public class camerashake : MonoBehaviour { 
 public Transform cameraTransform; private 
 Vector3 _originalPosOfCam; public float 
-shakeFrequency;   // Use this for 
+shakeFrequency;   
 initialization   void Start () {  
     _originalPosOfCam = cameraTransform.position;  
   }  
     
-  // Update is called once per frame  
  void Update () {     if 
 (Input.GetKey(KeyCode.S))  
     {  
